@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+int width,length;
+    std::cout << "Enter  width:."<<endl;
+    std::cin >>width;
+    std::cout << "The width  is:"<< width <<endl; 
+
+    std::cout<< "Enter length:."<<endl;
+    std::cin >>length;
+    std::cout <<"The length is:" <<length<<endl;
+
+    std::cout <<" The perimeter of the rectangle is:"<<(2*width)+(2*length)<<endl;
+
+    return 0;
+}
